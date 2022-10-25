@@ -39,7 +39,7 @@ Includes:
 
 # Getting Started
 
-Click "Use this template" at the top of this page, or click [here](https://github.com/adrianmcli/dapp-boilerplate/generate) to create your repo and clone locally.
+Click "Use this template" at the top of this page, or click [here](https://github.com/toptal126/ethers-typechain-next-dapp-boliderplate/generate) to create your repo and clone locally.
 
 1. Run `yarn` to install dependencies.
 2. Run `yarn typechain` to generate the types for your contracts.
@@ -51,6 +51,6 @@ To add a contract and have [Typechain](https://github.com/ethereum-ts/TypeChain)
 
 # Contributing
 
-Make an [issue](https://github.com/adrianmcli/dapp-boilerplate/issues) to talk about what you'd like to see!
+Make an [issue](https://github.com/toptal126/ethers-typechain-next-dapp-boliderplate/issues) to talk about what you'd like to see!
 
 **PRs welcome, let's build this together! Frontend devs unite!**
