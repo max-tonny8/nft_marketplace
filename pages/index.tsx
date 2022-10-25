@@ -2,6 +2,12 @@ import { FC, useState } from "react";
 import { ethers } from "ethers";
 import { Erc20__factory } from "../contracts/types";
 
+declare global {
+  interface Window {
+    ethereum?: ethers.providers.ExternalProvider;
+  }
+}
+
 const Index: FC = () => {
   const [provider, setProvider] = useState<ethers.providers.Web3Provider>();
   const [account, setAccount] = useState<string>();
