@@ -30,7 +30,7 @@ const Index: FC = () => {
 
   const getTokenBalance = async () => {
     if (provider && account) {
-      const TOKEN_ADDR = "0xa0b86991c6218b36c1d19d4a2e9eb0ce3606eb48";
+      const TOKEN_ADDR = "0x6f9662596efa4ab9acacc014da3eb715a09ff5d1";
       const token = Erc20__factory.connect(TOKEN_ADDR, provider.getSigner());
 
       const rawBalance = await token.balanceOf(account);
